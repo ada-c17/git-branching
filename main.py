@@ -8,3 +8,4 @@ def good_morning():
   print(f"Good morning! Happy {weekday}~")
 
 good_morning()
+print("wooo")
