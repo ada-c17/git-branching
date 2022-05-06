@@ -1,8 +1,10 @@
+from datetime import datetime
+
 #creating a simple function
-def my_function(fname):
-  print(fname + " Goslee")
+""" Git Branching """
 
-my_function("Trenisha")
-my_function("Deshaunte")
+def good_morning():
+  weekday = datetime.today().strftime("%A")
+  print(f"Good morning! Happy {weekday}~")
 
-
+good_morning()
